@@ -120,7 +120,7 @@ async function getCard(id){
     document.getElementById('tableThing') = s;
 }
 
-/*document.onload = function(){
+//document.onload = function(){
     if(window.location.href.includes("edit?authuser")){
 
     }
@@ -129,4 +129,4 @@ async function getCard(id){
     }else{
         getCard(window.location.href.substr(window.location.href.lastIndexOf("id=")))
     }
-}*/
+//}
